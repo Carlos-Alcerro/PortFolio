@@ -8,7 +8,7 @@ const About = () => {
         <p className="text-3xl md:text-4xl lg:text-5xl font-black uppercase">
           Acerca de mí
         </p>
-        <p className="text-base md:text-xl lg:text-xl mt-4 text-gray-700">
+        <p className="text-xl mt-4 text-gray-700">
           Aquí encontraras más información sobre mí, lo que hago y mis
           habilidades actuales en programación y mas enfocados a la tecnología.
         </p>
@@ -39,66 +39,66 @@ const About = () => {
             <p className="text-2xl font-black">Mis habilidades</p>
             <div className="flex md:ml-10 ml-10 justify-center gap-8 my-10">
               <img
-                src="/src/svg/html.svg"
+                src="svg/html.svg"
                 alt="html"
                 className="lg:w-16 lg:h-16 md:w-12 md:h-12 w-8 h-8"
               />
               <img
-                src="/src/svg/css.svg"
+                src="svg/css.svg"
                 alt="css"
                 className="lg:w-16 lg:h-16 md:w-12 md:h-12 w-8 h-8"
               />
               <img
-                src="/src/svg/javascript.svg"
+                src="svg/javascript.svg"
                 alt="js"
                 className="lg:w-16 lg:h-16 md:w-12 md:h-12 w-8 h-8"
               />
               <img
-                src="/src/svg/react.svg"
+                src="svg/react.svg"
                 alt="react"
                 className="lg:w-16 lg:h-16 md:w-12 md:h-12 w-8 h-8"
               />
               <img
-                src="/src/svg/tailwind-css.svg"
+                src="svg/tailwind-css.svg"
                 alt="tailwind"
                 className="lg:w-16 lg:h-16 md:w-12 md:h-12 w-8 h-8"
               />
             </div>
             <div className="flex justify-center md:ml-10 ml-10 gap-8 my-10 px-28">
               <img
-                src="/src/svg/mongodb.svg"
+                src="svg/mongodb.svg"
                 alt="mongo"
                 className="lg:w-16 lg:h-16 md:w-12 md:h-12 w-8 h-8"
               />
               <img
-                src="/src/svg/mysql.svg"
+                src="svg/mysql.svg"
                 alt="mysql"
                 className="lg:w-16 lg:h-16 md:w-12 md:h-12 w-8 h-8"
               />
               <img
-                src="/src/svg/git.svg"
+                src="svg/git.svg"
                 alt="git"
                 className="lg:w-16 lg:h-16 md:w-12 md:h-12 w-8 h-8"
               />
               <img
-                src="/src/svg/github.svg"
+                src="svg/github.svg"
                 alt="gitHub"
                 className="lg:w-16 lg:h-16 md:w-12 md:h-12 w-8 h-8"
               />
               <img
-                src="/src/svg/power-bi.svg"
+                src="svg/power-bi.svg"
                 alt="powerbi"
                 className="lg:w-16 lg:h-16 md:w-12 md:h-12 w-8 h-8"
               />
             </div>
             <div className="flex md:ml-10 ml-10 justify-center gap-8 my-10 px-28">
               <img
-                src="/src/svg/vite.svg"
+                src="svg/vite.svg"
                 alt="vite"
                 className="lg:w-16 lg:h-16 md:w-12 md:h-12 w-8 h-8"
               />
               <img
-                src="/src/svg/nextjs.svg"
+                src="svg/nextjs.svg"
                 alt="nextjs"
                 className="lg:w-16 lg:h-16 md:w-12 md:h-12 w-8 h-8"
               />

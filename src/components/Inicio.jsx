@@ -24,12 +24,7 @@ const Inicio = () => {
         <div className="flex justify-center gap-4  my-10">
           {dataSocialNetwork.map(({ id, icon, name, link }) => (
             <Link to={link} key={id} target="_blank" rel="noreferrer">
-              <img
-                src={`/src/svg/${icon}.svg`}
-                alt={name}
-                width="40"
-                height="40"
-              />
+              <img src={`svg/${icon}.svg`} alt={name} width="40" height="40" />
             </Link>
           ))}
         </div>

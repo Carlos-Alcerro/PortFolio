@@ -19,16 +19,16 @@ const Proyectos = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 mt-20">
         <Carousel showStatus={false} showThumbs={false} className="mt-5">
           <div>
-            <img src="src/images/FiestisimoPT1.JPG" />
+            <img src="images/FiestisimoPT1.JPG" />
           </div>
           <div>
-            <img src="src/images/FiestisimoPT2.JPG" />
+            <img src="images/FiestisimoPT2.JPG" />
           </div>
           <div>
-            <img src="src/images/FiestisimoPT3.JPG" />
+            <img src="images/FiestisimoPT3.JPG" />
           </div>
           <div>
-            <img src="src/images/FiestisimoPT4.JPG" />
+            <img src="images/FiestisimoPT4.JPG" />
           </div>
         </Carousel>
         <div className="px-5 block lg:px-20 md:px-16 lg:mt-16 md:mt-12 mt-8">
@@ -52,25 +52,25 @@ const Proyectos = () => {
         </div>
         <Carousel showStatus={false} showThumbs={false} className="mt-16">
           <div>
-            <img src="src/images/ClonUNAHPT1.JPG" />
+            <img src="images/ClonUNAHPT1.JPG" />
           </div>
           <div>
-            <img src="src/images/ClonUNAHPT2.JPG" />
+            <img src="images/ClonUNAHPT2.JPG" />
           </div>
           <div>
-            <img src="src/images/ClonUNAHPT3.JPG" />
+            <img src="images/ClonUNAHPT3.JPG" />
           </div>
           <div>
-            <img src="src/images/ClonUNAHPT4.JPG" />
+            <img src="images/ClonUNAHPT4.JPG" />
           </div>
           <div>
-            <img src="src/images/ClonUNAHPT5.JPG" />
+            <img src="images/ClonUNAHPT5.JPG" />
           </div>
           <div>
-            <img src="src/images/ClonUNAHPT6.JPG" />
+            <img src="images/ClonUNAHPT6.JPG" />
           </div>
           <div>
-            <img src="src/images/ClonUNAHPT7.JPG" />
+            <img src="images/ClonUNAHPT7.JPG" />
           </div>
         </Carousel>
         <div className="px-5 block lg:px-20 md:px-16 lg:mt-16 md:mt-12 mt-8">
@@ -96,13 +96,13 @@ const Proyectos = () => {
         </div>
         <Carousel showStatus={false} showThumbs={false} className="mt-16">
           <div>
-            <img src="src/images/BuscadorBeb.JPG" />
+            <img src="images/BuscadorBeb.JPG" />
           </div>
           <div>
-            <img src="src/images/BuscadorCli.JPG" />
+            <img src="images/BuscadorCli.JPG" />
           </div>
           <div>
-            <img src="src/images/ControlGastos.JPG" />
+            <img src="images/ControlGastos.JPG" />
           </div>
         </Carousel>
         <div className="px-5 block lg:px-20 md:px-16 lg:mt-16 md:mt-12 mt-8">
