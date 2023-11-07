@@ -11,7 +11,7 @@ const Header = () => {
           <div className="col-span-1">
             <div className="flex items-center gap-4">
               <img
-                src="/src/assets/FotoPerfil.jpeg"
+                src="assets/FotoPerfil.jpeg"
                 alt="FotoPerfil"
                 className="lg:w-16 lg:h-16 md:w-12 md:g-12 w-10 h-10 rounded-full cursor-pointer"
               />
