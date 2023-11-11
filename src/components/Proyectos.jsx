@@ -16,7 +16,7 @@ const Proyectos = () => {
         cuales he trabajado, tanto de forma individual como en equipo.
       </p>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 mt-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 mt-20">
         <Carousel showStatus={false} showThumbs={false} className="mt-5">
           <div>
             <img src="images/FiestisimoPT1.JPG" />
@@ -31,11 +31,9 @@ const Proyectos = () => {
             <img src="images/FiestisimoPT4.JPG" />
           </div>
         </Carousel>
-        <div className="px-5 block lg:px-20 md:px-16 lg:mt-16 md:mt-12 mt-8">
-          <p className="text-center text-2xl font-bold">
-            E-commerce Repostería
-          </p>
-          <p className="text-xl mt-5 text-gray-700 ">
+        <div className="px-5 block lg:px-20 md:px-16 lg:mt-12 md:mt-10 mt-8">
+          <p className="text-center text-xl font-bold">E-commerce Repostería</p>
+          <p className="text-lg mt-5 text-gray-700 ">
             Se diseñó este sitio web para una repostería con el objetivo de
             fortalecer su relación con los clientes. A través de la plataforma,
             los usuarios pueden explorar la variedad de postres disponible y
@@ -45,7 +43,7 @@ const Proyectos = () => {
             <Link
               to="https://github.com/Carlos-Alcerro/E-commerce-Pasteleria"
               target="_blank"
-              className=" px-5 py-4 text-white font-semibold text-lg bg-sky-700 rounded-lg shadow-sm hover:bg-sky-800"
+              className=" px-4 py-3 text-white font-semibold bg-sky-700 rounded-lg shadow-sm hover:bg-sky-800 text-base"
             >
               Ver Código
             </Link>
@@ -74,9 +72,9 @@ const Proyectos = () => {
             <img src="images/ClonUNAHPT7.JPG" />
           </div>
         </Carousel>
-        <div className="px-5 block lg:px-20 md:px-16 lg:mt-16 md:mt-12 mt-8">
-          <p className="text-center text-2xl font-bold">Clon Registro UNAH</p>
-          <p className="text-xl mt-5 text-gray-700 ">
+        <div className="px-5 block lg:px-20 md:px-16 lg:mt-12 md:mt-10 mt-8">
+          <p className="text-center text-xl font-bold">Clon Registro UNAH</p>
+          <p className="text-lg mt-5 text-gray-700 ">
             Este clon del registro de la UNAH fue desarrollado de manera
             colaborativa, en la cual participé activamente. Esta experiencia fue
             fundamental para consolidar mis habilidades en el campo del
@@ -89,7 +87,7 @@ const Proyectos = () => {
             <Link
               to="https://github.com/Kamenriderx/Proyecto"
               target="_blank"
-              className=" px-5 py-4 text-white font-semibold text-lg bg-sky-700 rounded-lg shadow-sm hover:bg-sky-800"
+              className=" px-4 py-3 text-white font-semibold bg-sky-700 rounded-lg shadow-sm hover:bg-sky-800 text-base"
             >
               Ver Código
             </Link>
@@ -106,9 +104,9 @@ const Proyectos = () => {
             <img src="images/ControlGastos.JPG" />
           </div>
         </Carousel>
-        <div className="px-5 block lg:px-20 md:px-16 lg:mt-16 md:mt-12 mt-8">
-          <p className="text-center text-2xl font-bold">Otros Proyectos</p>
-          <p className="text-xl mt-5 text-gray-700 ">
+        <div className="px-5 block lg:px-20 md:px-16 lg:mt-12 md:mt-10 mt-8">
+          <p className="text-center text-xl font-bold">Otros Proyectos</p>
+          <p className="text-lg mt-5 text-gray-700 ">
             A continuación, se presentan diversos proyectos recientes en los que
             he trabajado de manera independiente.
           </p>
@@ -116,7 +114,7 @@ const Proyectos = () => {
             <Link
               to="https://github.com/Carlos-Alcerro/Proyectos_Individuales"
               target="_blank"
-              className=" px-5 py-4 text-white font-semibold text-lg bg-sky-700 rounded-lg shadow-sm hover:bg-sky-800"
+              className=" px-4 py-3 text-white font-semibold bg-sky-700 rounded-lg shadow-sm hover:bg-sky-800 text-base"
             >
               Ver Código
             </Link>
