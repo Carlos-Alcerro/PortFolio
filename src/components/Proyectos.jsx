@@ -12,7 +12,7 @@ const Proyectos = () => {
         Proyectos
       </p>
       <p className="text-center text-xl mt-4 text-gray-700">
-        Aquí encontrará algunos de los proyectos personales y académicos en los
+        Aquí encontrarás algunos de los proyectos personales y académicos en los
         cuales he trabajado, tanto de forma individual como en equipo.
       </p>
 
@@ -36,9 +36,10 @@ const Proyectos = () => {
             E-commerce Repostería
           </p>
           <p className="text-xl mt-5 text-gray-700 ">
-            Este sitio web fue desarrollado para una repostería, la cual buscaba
-            una mayor conexión con sus clientes y a través de esta pueden ver
-            los distintos tipos de postres y hacer encargos de los mismos.
+            Se diseñó este sitio web para una repostería con el objetivo de
+            fortalecer su relación con los clientes. A través de la plataforma,
+            los usuarios pueden explorar la variedad de postres disponible y
+            realizar pedidos de manera sencilla.
           </p>
           <div className="mt-10">
             <Link
@@ -76,13 +77,14 @@ const Proyectos = () => {
         <div className="px-5 block lg:px-20 md:px-16 lg:mt-16 md:mt-12 mt-8">
           <p className="text-center text-2xl font-bold">Clon Registro UNAH</p>
           <p className="text-xl mt-5 text-gray-700 ">
-            Este clon del registro de la UNAH fue realizado en equipo, en el
-            cual participe y el cual fue uno de los cuales me sirvió mucho para
-            afianzar mis conocimientos en el desarrollo web, se incluyeron
-            muchas más funcionalidades extras aparte de las que ya cuenta el
-            sistema como ser, subida de notas, asignación de docentes,
-            diferentes módulos como ser el de administración, docentes y
-            estudiantes.
+            Este clon del registro de la UNAH fue desarrollado de manera
+            colaborativa, en la cual participé activamente. Esta experiencia fue
+            fundamental para consolidar mis habilidades en el campo del
+            desarrollo web. Se implementaron numerosas funcionalidades
+            adicionales, ampliando las capacidades del sistema original. Estas
+            incluyeron, entre otras, la capacidad de cargar notas, asignar
+            docentes y la incorporación de distintos módulos, como
+            administración, docentes y estudiantes.
           </p>
           <div className="mt-10">
             <Link
@@ -108,8 +110,8 @@ const Proyectos = () => {
         <div className="px-5 block lg:px-20 md:px-16 lg:mt-16 md:mt-12 mt-8">
           <p className="text-center text-2xl font-bold">Otros Proyectos</p>
           <p className="text-xl mt-5 text-gray-700 ">
-            Aquí se pueden observar diferentes tipos de proyectos en los cuales
-            he trabajado últimamente de forma individual.
+            A continuación, se presentan diversos proyectos recientes en los que
+            he trabajado de manera independiente.
           </p>
           <div className="mt-10">
             <Link
