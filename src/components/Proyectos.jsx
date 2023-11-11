@@ -81,10 +81,9 @@ const Proyectos = () => {
             colaborativa, en la cual participé activamente. Esta experiencia fue
             fundamental para consolidar mis habilidades en el campo del
             desarrollo web. Se implementaron numerosas funcionalidades
-            adicionales, ampliando las capacidades del sistema original. Estas
-            incluyeron, entre otras, la capacidad de cargar notas, asignar
-            docentes y la incorporación de distintos módulos, como
-            administración, docentes y estudiantes.
+            adicionales. Estas incluyeron, entre otras, la capacidad de cargar
+            notas, asignar docentes y distintos módulos, como administración,
+            docentes y estudiantes.
           </p>
           <div className="mt-10">
             <Link
