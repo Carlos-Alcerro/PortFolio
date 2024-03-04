@@ -20,7 +20,7 @@ const Proyectos = () => {
         cuales he trabajado, tanto de forma individual como en equipo.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 mt-10 gap-8 lg">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
