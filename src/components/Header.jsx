@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <nav className="bg-white px-16 py-3 fixed top-0 w-full z-50">
-        <div className="grid md:grid-cols-3 lg:grid-cols-3 grid-cols-2">
+        <div className="grid md:grid-cols-3 grid-cols-2">
           <div className="col-span-1">
             <div className="flex items-center gap-4">
               <img
@@ -24,7 +24,7 @@ const Header = () => {
             </div>
           </div>
           <div
-            className={`col-span-1 lg:flex md:flex items-center md:mt-0 lg:mt-0 mt-5 hidden`}
+            className={`col-span-2 md:flex justify-center items-center md:mt-0 mt-5 hidden`}
           >
             <div className="grid grid-cols-3 gap-10">
               <div className="cursor-pointer">
@@ -53,18 +53,11 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="lg:hidden md:hidden flex justify-end">
+          <div className="md:hidden flex justify-end">
             <button
               onClick={() => setCheck(!check)}
               className="flex items-center px-3 py-2 border rounded text-sky-400 border-sky-500 hover:text-sky-800 hover:border-sky-900"
             >
-              {/*  <svg
-                className="fill-current h-3 w-3"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-              </svg> */}
               {!check ? <BsList size={20} /> : <IoCloseSharp size={20} />}
             </button>
           </div>

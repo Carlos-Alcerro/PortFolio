@@ -1,14 +1,18 @@
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Link } from "react-router-dom";
 
 const Proyectos = () => {
   return (
-    <div
-      className="mt-10 px-12 py-16 md:px-20 lg:px-32 md:py-16 lg:py-24"
-      id="proyectos"
-    >
-      <p className="uppercase text-center text-xl md:3xl lg:text-4xl font-black">
+    <div className="mt-10 py-16 md:py-20 px-4 md:px-8 lg:px-16" id="proyectos">
+      <p className="uppercase text-center text-xl md:text-3xl lg:text-4xl font-black">
         Proyectos
       </p>
       <p className="text-center text-xl mt-4 text-gray-700">
@@ -16,21 +20,137 @@ const Proyectos = () => {
         cuales he trabajado, tanto de forma individual como en equipo.
       </p>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 mt-20">
-        <Carousel showStatus={false} showThumbs={false} className="mt-5">
-          <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-8">
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <img src="images/Teslo1.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Teslo2.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Teslo3.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Teslo4.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Teslo5.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Teslo6.JPG" />
+          </SwiperSlide>
+        </Swiper>
+        <div className="px-5 block lg:px-20 md:px-16 lg:mt-12 md:mt-10 mt-8">
+          <p className="text-center text-xl font-bold">Tienda de Ropa</p>
+          <p className="text-lg mt-5 text-gray-700 ">
+            Este sitio web, una tienda de ropa, se ha construido con NextJS con
+            el fin de ofrecer una experiencia de compra intuitiva y
+            satisfactoria. Además de contar con un menú interactivo para
+            explorar los productos, se ha integrado la funcionalidad del carrito
+            de compras para facilitar la selección y compra de artículos. La
+            plataforma se centra en proporcionar una navegación fluida y
+            eficiente, asegurando una experiencia óptima para el usuario final
+            durante todo el proceso de compra.
+          </p>
+          <div className="mt-5">
+            <Link
+              to="https://github.com/Carlos-Alcerro/teslo-shop"
+              target="_blank"
+              className=" font-semibold text-base hover:underline hover:text-blue-600"
+            >
+              Ver Código
+            </Link>
+          </div>
+        </div>
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <img src="images/Quiosco1.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Quiosco2.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Quiosco3.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Quiosco4.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Quiosco5.JPG" />
+          </SwiperSlide>
+        </Swiper>
+        <div className="px-5 block lg:px-20 md:px-16 lg:mt-12 md:mt-10 mt-8">
+          <p className="text-center text-xl font-bold">Quisoco Cafeteria</p>
+          <p className="text-lg mt-5 text-gray-700 ">
+            Este sitio web fue desarrollado utilizando NextJS con el objetivo de
+            ofrecer una experiencia óptima al usuario final al proporcionar un
+            menú interactivo y la capacidad de realizar pedidos de manera
+            eficiente en una cafetería.
+          </p>
+          <div className="mt-5">
+            <Link
+              to="https://github.com/Carlos-Alcerro/Quiosco-Comidas"
+              target="_blank"
+              className=" font-semibold text-base hover:underline hover:text-blue-600"
+            >
+              Ver Código
+            </Link>
+          </div>
+        </div>
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
             <img src="images/FiestisimoPT1.JPG" />
-          </div>
-          <div>
+          </SwiperSlide>
+          <SwiperSlide>
             <img src="images/FiestisimoPT2.JPG" />
-          </div>
-          <div>
+          </SwiperSlide>
+          <SwiperSlide>
             <img src="images/FiestisimoPT3.JPG" />
-          </div>
-          <div>
+          </SwiperSlide>
+          <SwiperSlide>
             <img src="images/FiestisimoPT4.JPG" />
-          </div>
-        </Carousel>
+          </SwiperSlide>
+        </Swiper>
         <div className="px-5 block lg:px-20 md:px-16 lg:mt-12 md:mt-10 mt-8">
           <p className="text-center text-xl font-bold">E-commerce Repostería</p>
           <p className="text-lg mt-5 text-gray-700 ">
@@ -39,39 +159,52 @@ const Proyectos = () => {
             los usuarios pueden explorar la variedad de postres disponible y
             realizar pedidos de manera sencilla.
           </p>
-          <div className="mt-10">
+          <div className="mt-5">
             <Link
               to="https://github.com/Carlos-Alcerro/E-commerce-Pasteleria"
               target="_blank"
-              className=" px-4 py-3 text-white font-semibold bg-sky-700 rounded-lg shadow-sm hover:bg-sky-800 text-base"
+              className=" font-semibold text-base hover:underline hover:text-blue-600"
             >
               Ver Código
             </Link>
           </div>
         </div>
-        <Carousel showStatus={false} showThumbs={false} className="mt-16">
-          <div>
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
             <img src="images/ClonUNAHPT1.JPG" />
-          </div>
-          <div>
+          </SwiperSlide>
+          <SwiperSlide>
             <img src="images/ClonUNAHPT2.JPG" />
-          </div>
-          <div>
+          </SwiperSlide>
+          <SwiperSlide>
             <img src="images/ClonUNAHPT3.JPG" />
-          </div>
-          <div>
+          </SwiperSlide>
+          <SwiperSlide>
             <img src="images/ClonUNAHPT4.JPG" />
-          </div>
-          <div>
+          </SwiperSlide>
+          <SwiperSlide>
             <img src="images/ClonUNAHPT5.JPG" />
-          </div>
-          <div>
+          </SwiperSlide>
+          <SwiperSlide>
             <img src="images/ClonUNAHPT6.JPG" />
-          </div>
-          <div>
+          </SwiperSlide>
+          <SwiperSlide>
             <img src="images/ClonUNAHPT7.JPG" />
-          </div>
-        </Carousel>
+          </SwiperSlide>
+        </Swiper>
         <div className="px-5 block lg:px-20 md:px-16 lg:mt-12 md:mt-10 mt-8">
           <p className="text-center text-xl font-bold">Clon Registro UNAH</p>
           <p className="text-lg mt-5 text-gray-700 ">
@@ -83,38 +216,51 @@ const Proyectos = () => {
             notas, asignar docentes y distintos módulos, como administración,
             docentes y estudiantes.
           </p>
-          <div className="mt-10">
+          <div className="mt-5">
             <Link
               to="https://github.com/Kamenriderx/Proyecto"
               target="_blank"
-              className=" px-4 py-3 text-white font-semibold bg-sky-700 rounded-lg shadow-sm hover:bg-sky-800 text-base"
+              className=" font-semibold text-base hover:underline hover:text-blue-600"
             >
               Ver Código
             </Link>
           </div>
         </div>
-        <Carousel showStatus={false} showThumbs={false} className="mt-16">
-          <div>
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
             <img src="images/BuscadorBeb.JPG" />
-          </div>
-          <div>
+          </SwiperSlide>
+          <SwiperSlide>
             <img src="images/BuscadorCli.JPG" />
-          </div>
-          <div>
+          </SwiperSlide>
+          <SwiperSlide>
             <img src="images/ControlGastos.JPG" />
-          </div>
-        </Carousel>
+          </SwiperSlide>
+        </Swiper>
         <div className="px-5 block lg:px-20 md:px-16 lg:mt-12 md:mt-10 mt-8">
           <p className="text-center text-xl font-bold">Otros Proyectos</p>
           <p className="text-lg mt-5 text-gray-700 ">
             A continuación, se presentan diversos proyectos recientes en los que
             he trabajado de manera independiente.
           </p>
-          <div className="mt-10">
+          <div className="mt-5">
             <Link
               to="https://github.com/Carlos-Alcerro/Proyectos_Individuales"
               target="_blank"
-              className=" px-4 py-3 text-white font-semibold bg-sky-700 rounded-lg shadow-sm hover:bg-sky-800 text-base"
+              className=" font-semibold text-base hover:underline hover:text-blue-600"
             >
               Ver Código
             </Link>
