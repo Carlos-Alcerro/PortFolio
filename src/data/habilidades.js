@@ -15,9 +15,11 @@ import {
   SiMicrosoftsqlserver,
   SiPostgresql,
   SiPrisma,
+  SiNestjs,
 } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { TbBrandNextjs } from "react-icons/tb";
+import { BiLogoTypescript } from "react-icons/bi";
 
 export const habilidades = [
   {
@@ -83,5 +85,13 @@ export const habilidades = [
   {
     id: 16,
     icon: SiPrisma({ size: 45 }),
+  },
+  {
+    id: 17,
+    icon: BiLogoTypescript({ size: 45, color: "#007acc" }),
+  },
+  {
+    id: 18,
+    icon: SiNestjs({ size: 45, color: "#D51D36" }),
   },
 ];
