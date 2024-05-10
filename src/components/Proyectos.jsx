@@ -36,6 +36,86 @@ const Proyectos = () => {
           className="mySwiper"
         >
           <SwiperSlide>
+            <img src="images/Img1.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Img2.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Img3.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Img4.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Img5.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Img6.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Img7.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Img8.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Img9.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Img10.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Img11.JPG" />
+          </SwiperSlide>
+        </Swiper>
+        <div className="px-5 block lg:px-20 md:px-16 lg:mt-8 md:mt-7 mt-8">
+          <p className="text-center text-xl font-bold p-2 bg-red-500 text-white">
+            En progreso
+          </p>
+          <p className="text-center text-xl font-bold">Restaurante</p>
+          <p className="text-lg mt-5 text-gray-700 ">
+            Este sitio web representa un restaurante que ha sido desarrollado
+            utilizando las tecnologías de NestJS y NextJS. Su objetivo principal
+            es mejorar la interacción del usuario, proporcionando una
+            experiencia más fluida y satisfactoria. Para lograr este propósito,
+            se han implementado diversos módulos, incluyendo funcionalidades
+            para usuarios, administradores y cocineros. El enfoque principal de
+            este proyecto es aumentar la eficiencia en la atención y servicio
+            ofrecido a los usuarios del restaurante.
+          </p>
+          <div className="mt-5 flex justify-around">
+            <Link
+              to="https://github.com/Carlos-Alcerro/Backend-NestJs-Proyecto"
+              target="_blank"
+              className=" font-semibold text-base hover:underline hover:text-blue-600"
+            >
+              Ver Backend
+            </Link>
+            <Link
+              to="https://github.com/Carlos-Alcerro/Proyecto-Restaurante-NextJS"
+              target="_blank"
+              className=" font-semibold text-base hover:underline hover:text-blue-600"
+            >
+              Ver Frontend
+            </Link>
+          </div>
+        </div>
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
             <img src="images/Teslo1.JPG" />
           </SwiperSlide>
           <SwiperSlide>
