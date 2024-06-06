@@ -16,6 +16,7 @@ import {
   SiPostgresql,
   SiPrisma,
   SiNestjs,
+  SiCsharp,
 } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -93,5 +94,9 @@ export const habilidades = [
   {
     id: 18,
     icon: SiNestjs({ size: 45, color: "#D51D36" }),
+  },
+  {
+    id: 19,
+    icon: SiCsharp({ size: 45, color: "#A63FE5" }),
   },
 ];

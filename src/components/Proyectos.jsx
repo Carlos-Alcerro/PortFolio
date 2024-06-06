@@ -36,37 +36,43 @@ const Proyectos = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src="images/Img1.JPG" />
+            <img src="images/Proy1.JPG" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/Img2.JPG" />
+            <img src="images/Proy2.JPG" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/Img3.JPG" />
+            <img src="images/Proy3.JPG" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/Img4.JPG" />
+            <img src="images/Proy4.JPG" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/Img5.JPG" />
+            <img src="images/Proy5.JPG" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/Img6.JPG" />
+            <img src="images/Proy6.JPG" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/Img7.JPG" />
+            <img src="images/Proy7.JPG" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/Img8.JPG" />
+            <img src="images/Proy8.JPG" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/Img9.JPG" />
+            <img src="images/Proy9.JPG" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/Img10.JPG" />
+            <img src="images/Proy10.JPG" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/Img11.JPG" />
+            <img src="images/Proy11.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Proy12.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/Proy13.JPG" />
           </SwiperSlide>
         </Swiper>
         <div className="px-5 block lg:px-20 md:px-16 lg:mt-8 md:mt-7 mt-8">
@@ -241,7 +247,7 @@ const Proyectos = () => {
           </p>
           <div className="mt-5">
             <Link
-              to="https://github.com/Carlos-Alcerro/E-commerce-Pasteleria"
+              to="https://github.com/Carlos-Alcerro/E-commercer-Reposteria"
               target="_blank"
               className=" font-semibold text-base hover:underline hover:text-blue-600"
             >
