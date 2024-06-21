@@ -122,6 +122,68 @@ const Proyectos = () => {
           className="mySwiper"
         >
           <SwiperSlide>
+            <img src="images/W1.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/W2.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/W3.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/W4.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/W5.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/W6.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/W7.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/W8.JPG" />
+          </SwiperSlide>
+        </Swiper>
+        <div className="px-5 block lg:px-20 md:px-16 lg:mt-8 md:mt-7 mt-8">
+          <p className="text-center text-xl font-bold p-2 bg-red-500 text-white">
+            En progreso
+          </p>
+          <p className="text-center text-xl font-bold">Web - Houses</p>
+          <p className="text-lg mt-5 text-gray-700 ">
+            Este sitio web tiene como objetivo proporcionar una presentación
+            visualmente atractiva para la búsqueda de viviendas, similar al
+            estilo de Airbnb. Los usuarios pueden explorar diversas opciones de
+            propiedades disponibles en la plataforma. Este proyecto se está
+            desarrollando utilizando Next.js, lo que garantiza un rendimiento y
+            una experiencia de usuario optimizados.
+          </p>
+          <div className="mt-5 flex justify-around">
+            <Link
+              to="https://web-houses.netlify.app/"
+              target="_blank"
+              className=" font-semibold text-base hover:underline hover:text-blue-600"
+            >
+              Ver Sitio
+            </Link>
+          </div>
+        </div>
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
             <img src="images/Teslo1.JPG" />
           </SwiperSlide>
           <SwiperSlide>
