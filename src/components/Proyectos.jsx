@@ -122,6 +122,65 @@ const Proyectos = () => {
           className="mySwiper"
         >
           <SwiperSlide>
+            <img src="images/C1.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/C2.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/C3.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/C4.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/C5.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/C6.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/C7.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="images/C8.JPG" />
+          </SwiperSlide>
+        </Swiper>
+        <div className="px-5 block lg:px-20 md:px-16 lg:mt-8 md:mt-7 mt-8">
+          <p className="text-center text-xl font-bold">Ecommerce Cafeteria</p>
+          <p className="text-lg mt-5 text-gray-700 ">
+            El sitio web fue diseñado para ser visualmente atractivo y fácil de
+            usar. Para lograr esto, se utilizaron varias herramientas y
+            tecnologías: shadcn/ui para mejorar el diseño, Strapi como CMS para
+            gestionar el contenido de manera más eficiente, y NextJS junto con
+            TailwindCSS para desarrollar y estilizar el sitio web; y se agrego
+            una pasarela de pago usanndo stripe.
+          </p>
+          <div className="mt-5 flex justify-around">
+            <Link
+              to="https://ecommer-cafeteria-frontend.vercel.app/"
+              target="_blank"
+              className=" font-semibold text-base hover:underline hover:text-blue-600"
+            >
+              Ver Sitio
+            </Link>
+          </div>
+        </div>
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
             <img src="images/W1.JPG" />
           </SwiperSlide>
           <SwiperSlide>
@@ -169,6 +228,7 @@ const Proyectos = () => {
             </Link>
           </div>
         </div>
+
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
